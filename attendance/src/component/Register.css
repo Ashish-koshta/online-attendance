@@ -1,0 +1,52 @@
+.rbody{
+    background-color: rgb(194, 188, 188);
+    /* border: 2px solid black; */
+    height: 99vh;
+    width: 99%;
+    position: absolute;
+    margin-top: 0%;
+}
+.rhead{
+    /* border: 2px solid black; */
+    margin-top: 2rem;
+}
+.rbox{
+    background-color: rgb(163, 160, 160) ;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    /* margin-left: 10 rem;
+    margin-right: 3rem; */
+    margin-left: 30rem;
+    margin-right: 30rem;
+    margin-top: 2rem;
+
+}
+.rbox input{
+    /* padding-left: 2px; */
+    padding-right: 100px;
+}
+.rbox input:hover{
+    background-color:  rgb(194, 188, 188);
+    padding-right: 110px;
+}
+.rbtn{
+    margin-left: 12rem;
+    margin-right: 12rem;
+   /* padding-top: 2rem; */
+   margin-top: 2rem;
+   
+}
+.rbtn:hover{
+    cursor: pointer;
+    
+    background-color:  rgb(173, 167, 167)
+   
+}
+.rf{
+    color: red;
+}

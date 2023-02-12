@@ -1,0 +1,26 @@
+.abody{
+    margin-top: -2rem;
+    background-color: rgb(228, 224, 224);
+    height: 100vh;
+    position: absolute;
+    width: 99%;
+}
+.abox:hover{
+    background-color: rgb(205, 202, 202);
+    cursor: pointer;
+}
+.abox{
+    padding: 3rem;
+    margin-top: 10rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+.ahead{
+    
+    margin-top:4rem ;
+}

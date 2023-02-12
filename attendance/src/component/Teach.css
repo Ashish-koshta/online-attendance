@@ -1,0 +1,120 @@
+.tbg {
+    background-image: url('./bgmain.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.tnav {
+    /* background-color: rgb(144, 203, 203); */
+    padding: 0.1px;
+
+}
+
+#tnavbar {
+    background-color: rgb(187, 216, 242);
+    /* z-index: -1; */
+    opacity: 0.8;
+}
+
+.tnav li {
+    display: inline-block;
+    background-color: rgb(187, 216, 242);
+    color: black;
+    padding-left: 3rem;
+    margin-left: 2px;
+
+}
+
+.tnav li h2 {
+    /* border: 2px solid black; */
+    /* border-radius: 4px;
+    border-color: rgb(191, 27, 27); */
+    /* padding: 3px;
+    position: absolute;
+    top: 1px; */
+    margin-left: 35rem;
+    font-size: 2rem;
+    color: rgb(12, 12, 14);
+
+}
+
+.thome {
+    /* border: 2px solid black; */
+    border-radius: 9px;
+
+    position: absolute;
+    right: 9rem;
+    top: 20px;
+    border-color: black;
+    padding: 3px;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+     
+}
+
+.tlogout {
+    /* border: 2px solid black; */
+
+    border-radius: 9px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-color: black;
+    padding: 3px;
+
+    margin-top:1rem ;font-size: 1.5rem;
+}
+
+.thome:hover {
+    background-color: rgb(158, 182, 203);
+    cursor: pointer;
+}
+
+.tlogout:hover {
+    background-color: rgb(158, 182, 203);
+    cursor: pointer;
+}
+
+.tbox {
+    /* margin-top: 250px; */
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    height: 90vh;
+
+}
+
+.tbox0 {
+    margin-top: 220px;
+    /* border: 2px solid black; */
+    border-radius: 29px;
+    padding: 40px;
+    padding-bottom: 5rem;
+    height: 150px;
+    background-color: rgb(187, 216, 242);
+    /* z-index: -1; */
+    opacity: 0.8;
+}
+.tbox0:hover{
+    background-color: rgb(172, 197, 219);
+}
+
+#tsearch {
+    margin-top: 7px;
+    padding: 2.5px;
+    padding-left: 28px;
+    border-radius: 8px;
+    color: black;
+    background-color: rgb(187, 216, 242);
+    /* z-index: -1; */
+    opacity: 1.1;
+}
+#tbtn{
+    border-radius: 8px;
+    background-color: rgb(187, 216, 242);
+    /* z-index: -1; */
+    opacity: 0.8;
+}

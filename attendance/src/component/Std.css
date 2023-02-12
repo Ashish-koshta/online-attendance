@@ -1,0 +1,113 @@
+.std {
+  /* border: 2px solid black; */
+  background-image: url("./bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+  position: absolute;
+  /* height: 80vp ; */
+  width: 99%;
+ 
+  
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+
+}
+
+.bodi {
+  display: flex;
+  justify-content: center;
+  height: 100%
+}
+
+.sbox {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 50px;
+  border: 2px solid rgb(7, 7, 7);
+  display: inline-block;
+  background-color: rgb(217, 213, 213);
+  /* z-index: -1; */
+  opacity: 0.8;
+}
+
+.input {
+  border-radius: 5px;
+  padding: 3px;
+  color: blue;
+}
+
+.input:hover {
+  background-color: aliceblue;
+}
+
+.sbtn {
+  text-decoration: none;
+  border: 2px solid black;
+  margin-top: 5 px;
+  border-radius: 5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-left: 55px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.sbtn:hover {
+  background-color: rgb(115, 224, 164);
+  cursor: pointer;
+
+}
+
+.require {
+  color: red;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 104px;
+  margin: 49px;
+  margin-left: 18rem;
+  margin-right: 20rem;
+  padding: 92px;
+  background-image: url("./stdlogin.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 2px;
+  margin-bottom: -40px;
+}
+
+.login {
+  /* margin-left: 44px;
+
+  font-size: 2.5rem; */
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  margin-bottom: 1px;
+
+}
+
+.con {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.con input {
+  /* padding-right: 8rem; */
+  width: 21rem;
+  padding: 0.5rem;
+}
